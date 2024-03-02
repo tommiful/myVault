@@ -14,7 +14,6 @@ async function main() {
 
   await hre.run("verify:verify", {
     address: myVault.address,
-    //constructorArguments: [],
   });
 }
 
