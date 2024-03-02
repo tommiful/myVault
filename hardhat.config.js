@@ -4,9 +4,6 @@ require("@nomiclabs/hardhat-etherscan");
 const ethers = require('ethers');
 const credentials = require('./credentials.js');
 
-/**
- * @type import('hardhat/config').HardhatUserConfig
- */
 module.exports = {
   solidity: "0.8.4",
   defaultNetwork: "local",
