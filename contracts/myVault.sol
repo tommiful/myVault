@@ -1,13 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 
-/*
-@title myVault
-@license GNU GPLv3
-@author James Bachini
-@notice A vault to automate and decentralize a long term donation strategy
-*/
-import "hardhat/console.sol";
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
