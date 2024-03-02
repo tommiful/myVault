@@ -9,6 +9,7 @@ const credentials = require('./credentials.js');
  */
 module.exports = {
   solidity: "0.8.4",
+  defaultNetwork: "local",
   networks: {
     kovan: {
       url: `https://eth-kovan.alchemyapi.io/v2/${credentials.alchemy}`,
